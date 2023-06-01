@@ -1,449 +1,690 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TARUN NAMDEV --My Portfolio</title>
-    <!-- <title>TARUN NAMDEV - Personal Portfolio</title> -->
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TARUN NAMDEV --My Portfolio</title>
+  <!-- <title>TARUN NAMDEV - Personal Portfolio</title> -->
+
+  <!--
     - favicon
   -->
   <!-- this code is to set icon in Title -->
-    <!-- <link
+  <!-- <link
       rel="shortcut icon"
       href="./assets/images/logo.ico"
       type="image/x-icon"
     /> -->
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <!-- <figure class="avatar-box">
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <!-- <figure class="avatar-box">
           <img src="./website-demo-image/IMG_20230407_235850.jpg" alt="Richard hanrick" width="80">
         </figure> -->
 
-          <div class="info-content">
-            <h1 class="name">TARUN NAMDEV</h1>
+        <div class="info-content">
+          <h1 class="name">TARUN NAMDEV</h1>
 
-            <p class="title">Web developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Web developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <!-- <a href="namdevtarun910@email.com" class="contact-link"
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <!-- <a href="namdevtarun910@email.com" class="contact-link"
                   >namdevtarun910@email.com</a> -->
 
-                  <a href="mailto:namdevtarun910@gmail.com" class="contact-link">namdevtarun910@gmail.com</a>  
-                  <!-- <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here" class="contact-link">Email Us</a> -->
-            
-              </div>
-            </li>
+              <a href="mailto:namdevtarun910@gmail.com" class="contact-link">namdevtarun910@gmail.com</a>
+              <!-- <a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here" class="contact-link">Email Us</a> -->
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            </div>
+          </li>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-                <a href="tel:+(91)6260919910" class="contact-link"
-                  >+(91)6260919910</a
-                >
-              </div>
-            </li>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+              <a href="tel:+(91)6260919910" class="contact-link">+(91)6260919910</a>
+            </div>
+          </li>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-                <time datetime="17-10-2001">Oct 17, 2001</time>
-              </div>
-            </li>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+              <time datetime="17-10-2001">Oct 17, 2001</time>
+            </div>
+          </li>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-                <address>Bhopal, Mp</address>
-              </div>
-            </li>
-          </ul>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <div class="separator"></div>
+              <address>Bhopal, Mp</address>
+            </div>
+          </li>
+        </ul>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/Tarun910" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a href="https://linkedin.com/in/Tarun910" class="social-link">
-                <ion-icon name="logo-linkedIn"></ion-icon>
-              </a>
-            </li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Tarun910" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="https://instagram.com/itzsemi_?igshid=ZDdkNTZiNTM=" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li class="social-item">
+            <a href="https://linkedin.com/in/Tarun910" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://instagram.com/itzsemi_?igshid=ZDdkNTZiNTM=" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              Seeking a beginner role to enhance and explore my technical
-              knowledge gained from online learning platforms, mentors, and
-              websites. Strong ability to handle complex projects. Innovative,
-              creative, and willing to contribute ideas and learn new things..
-            </p>
-          </section>
+        <section class="about-text">
+          <p>
+            Seeking a beginner role to enhance and explore my technical
+            knowledge gained from online learning platforms, mentors, and
+            websites. Strong ability to handle complex projects. Innovative,
+            creative, and willing to contribute ideas and learn new things..
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/coding (3).png"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/coding (3).png" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level. 
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/coding (3).png
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/coding (3).png
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Front-end</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-end</h4>
 
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a
+                  professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/coding (3).png"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/coding (3).png" alt="mobile app icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">
-                    Data structure and Algorithms
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  Back-End
+                </h4>
 
-                  <p class="service-item-text">
-                    learning the Data Structures and Algorithms.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Focusing on databases, back-end logic, application programming interface (APIs), architecture, and
+                  servers.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <!-- <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40"> -->
-                  <img
-                    src="./assets/images/coding (3).png"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <!-- <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40"> -->
+                <img src="./assets/images/coding (3).png" alt="camera icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Programming</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
 
-                  <p class="service-item-text">
-                    Highly experienced in programming and scripting languages.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+                <p class="service-item-text">
+                  Have good experience in programming and scripting languages.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials
         -->
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Projects</h3>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Projects</h3>
 
-            <ul class="testimonials-list has-scrollbar">
+          <ul class="testimonials-list has-scrollbar">
 
 
-               
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/project-5.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    Protfolio-website
-                  </h4>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.
-                    </p>
-                    <ul class="social-list">
-                      <li class="social-item">
-                        <a href="https://tarun910.github.io/my-website/" class="social-link">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                      </li>
-          </ul>
+                  <!-- src="./images/project-5.png"  pic option previous pic... -->
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
 
-                  </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Personal-Website
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A portfolio website is a unique way to showcase your work and let others know about yourself. It's
+                    like an evergreen platform for your projects, case studies, and information about you. In addition,
+                    it's one of the best ways to express your personality, experience, and capabilities.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/my-website/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+
                 </div>
-              </li>
+              </div>
+            </li>
 
 
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/project-5.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                   Music-Player
-                  </h4>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      I built a music player using just core web technologies: HTML CSS and js. This music player will have all the features found in a typical music player. You will be able to add, play, pause, and seek songs that have been added. It displays the artist’s name with the songs they composed. This code is added for making the carousel concept in this project by adding the song images with respective links so that after this code the images will be displayed line by line with a start, delay, and end time which is added in this javascript code.
-                    </p>
-                    <ul class="social-list">
-                      <li class="social-item">
-                        <a href="https://tarun910.github.io/Music-Player/" class="social-link">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                      </li>
-          </ul>
-                  </div>
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Makeup - Website
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+                    Created a Make Up website by using html, css and js and mongoDb as database. There are some
+                    functionalities added in website like home , about, services, products, gallery and contact
+                    sections.There is also a user ragistration form where user can create his/her account and fill
+                    his/her information.
+
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/MakeUp-Website/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-              </li>
+              </div>
+            </li>
 
 
-            
 
 
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/project-5.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                   landing -Page
-                  </h4>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to describe and explain your product or service with ample text and images.
-                    </p>
-                    <ul class="social-list">
-                      <li class="social-item">
-                        <a href="https://tarun910.github.io/landing-Page/" class="social-link">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                      </li>
-          </ul>
 
-                  </div>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Music-Player
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I built a music player using just core web technologies: HTML CSS and js. This music player will
+                    have all the features found in a typical music player. You will be able to add, play, pause, and
+                    seek songs that have been added. It displays the artist’s name with the songs they composed. This
+                    code is added for making the carousel concept in this project by adding the song images with
+                    respective links so that after this code the images will be displayed line by line with a start,
+                    delay, and end time which is added in this javascript code.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Music-Player/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-              </li>
-            
+              </div>
+            </li>
 
 
 
 
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/project-5.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                  Calculator
-                  </h4>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      I created a simple calculator using just core web technologies: HTML, CSS, and JavaScript. This calculator can perform all the basic mathematical operations like addition, subtraction, multiplication, and division. It does not display any result in case of an invalid expression. For example, 5++9 will not display anything. Clear screen feature to clear the display screen anytime you want.
-                    </p>
-                    <ul class="social-list">
-                      <li class="social-item">
-                        <a href="https://tarun910.github.io/Calulator-project-/" class="social-link">
-                          <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                      </li>
-          </ul>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  landing -Page
+                </h4>
 
-                  </div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Landing page: It has a very specific purpose, such as for users to sign-up, to gather information,
+                    to sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to
+                    describe and explain your product or service with ample text and images.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/landing-Page/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+
                 </div>
-              </li>
+              </div>
+            </li>
 
 
 
 
 
-              <!-- <li class="testimonials-item">
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  To-Do-List
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    To-do lists offer a way to increase productivity, stopping you from forgetting things, helps
+                    prioritise tasks, manage tasks effectively, use time wisely and improve time management as well as
+                    workflow. I created a To-Do-List website by using html, css and js.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Oasis_Infobyte_To-Do_List_Level2_Task3/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Calculator - Light/Dark
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Building a web calculator is a great project, especially if you have just started learning
+                    JavaScript. It is quite simple for people of any skill level. This project covers the interactions
+                    with UI and key JavaScript methods.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Oasis_Infobyte_Calculator_Level2_Task1/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Temperature-Converter
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The Temperature Converter is a simple project developed using HTML5, CSS, and JavaScript. This is a
+                    simple project that converts temperature from a Celcius unit to Fahrenheit and vice versa. Also,
+                    this app has a reset function to clear the text fields. This project is an interesting useful
+                    project.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Code_Alpha_Temprature_Converter_Website_Task1/"
+                        class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Link-Shortner
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    An URL shortener is a website that reduces the length of your URL (Uniform Resource Locator). The
+                    idea is to minimize the web page address into something that's easier to remember and track. I
+                    created this amazing website by using html ,css and js.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Code_Alpha_Link_Shortner_Website_Task2/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Portfolio - Website
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I created this Portfolio Website under Bharat Intern Internship Program as Web Developer Intern.
+                    Tech-Stack : - Html, Css and Js..
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Bharat_Intern_Portfolio_Website_Task1/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Basic-Calculator
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I created a simple calculator using just core web technologies: HTML, CSS, and JavaScript. This
+                    calculator can perform all the basic mathematical operations like addition, subtraction,
+                    multiplication, and division. It does not display any result in case of an invalid expression. For
+                    example, 5++9 will not display anything. Clear screen feature to clear the display screen anytime
+                    you want.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Calulator-project-/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Tribute-Page
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A tribute page is a web page where we mention our favorite person and write down their
+                    achievements.here, I created a tribute page for the Maharana Pratap - The Brave Warrior of Mewar.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Oasis_Infobyte_Tribute_Page_Level2_Task2/"
+                        class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./pexels-lukas-574080.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Netflix - Homepage
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    An URL shortener is a website that reduces the length of your URL (Uniform Resource Locator). The
+                    idea is to minimize the web page address into something that's easier to remember and track. I
+                    created this amazing website by using html ,css and js.
+                  </p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a href="https://tarun910.github.io/Bharat_Intern_Netflix_Homepage_Task2/" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+            <!-- <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
@@ -508,75 +749,144 @@
 
               </div>
             </li> -->
-            </ul>
-          </section>
+          </ul>
+        </section>
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Internships</h3>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Internships</h3>
 
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/job.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
+          <ul class="testimonials-list has-scrollbar">
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                  #codealpha
-                  </h4>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      As a Web Developing Intern in the Virtual Internship Program (VIP) at LetsGrowMore which is held in February 2022.
-I would like to thank Aman Kesarwani Sir and the team of LetsGrowMore Community for giving me this opportunity to enhance my skills and work on such an amazing projects.
-During this Web Development Internship we were having 3 levels of tasks, out of which we needed to complete at least 2 of them for the Internship completion & certification from LetsGrowMore:-
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img
-                      src="./images/job.png"
-                      alt="Daniel lewis"
-                      width="60"
-                      data-testimonials-avatar
-                    />
-                  </figure>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/job.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
 
-                  <h4
-                    class="h4 testimonials-item-title"
-                    data-testimonials-title
-                  >
-                    #bharatintern
-                  </h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  #code_Alpha
+                </h4>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      As a Web Developing Intern in the Virtual Internship Program (VIP) at LetsGrowMore which is held in February 2022.
-                      I would like to thank Aman Kesarwani Sir and the team of LetsGrowMore Community for giving me this opportunity to enhance my skills and work on such an amazing projects.
-                      During this Web Development Internship we were having 3 levels of tasks, out of which we needed to complete at least 2 of them for the Internship completion & certification from LetsGrowMore:-
-                      <br>
-                      <br>
-                    
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+
+                    As a Web Developing Intern in the Virtual Internship Program (VIP) at Code Alpha which is held in
+                    May 2023.
+                    I would like to thank the team of Code Alpha Community for giving me this opportunity to enhance my
+                    skills and work on such an amazing projects.
+                    During this Web Development Internship I were having 3 levels of tasks, out of which we needed to
+                    complete at least 2 of them for the Internship completion & certification from Code Alpha:-
+<br>
+<br>
+
+For this project, I started by brainstorming the purpose and goals of the website, and then creating a wireframe to plan out the layout and structure. Once I had a clear idea of the website's design, I began writing the HTML code to create the website's structure and content.
                       
-                   
-                    </p>
-                  </div>
-                </div>
-              </li>
-             
+                      <br>
+                      <br>
+                      
+After I had written the HTML code, I moved on to styling the website using CSS . I used CSS to apply colors, fonts, and other visual styling to the website, making it visually appealing and easy to use. And then I moved to JavaScript to apply logic and functions in my website.
 
-              <!-- <li class="testimonials-item">
+<br><br>
+
+Overall, this project taught me a lot about the importance of planning and organization in website design, as well as the power of HTML, CSS and JavaScript in creating beautiful and functional websites.
+
+
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/job.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  #oasis_Infobyte
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+
+                    As a Web Developing Intern in the Virtual Internship Program (VIP) at Oasis Infobyte which is held in
+                    May 2023.
+                    I would like to thank the team of Oasis Infobyte Community for giving me this opportunity to enhance my
+                    skills and work on such an amazing projects.
+                    During this Web Development Internship I were having 3 levels of tasks, out of which we needed to
+                    complete at least 2 of them for the Internship completion & certification from Oasis Infobyte:-
+<br>
+<br>
+
+For this project, I started by brainstorming the purpose and goals of the website, and then creating a wireframe to plan out the layout and structure. Once I had a clear idea of the website's design, I began writing the HTML code to create the website's structure and content.
+                      
+                      <br>
+                      <br>
+                      
+After I had written the HTML code, I moved on to styling the website using CSS . I used CSS to apply colors, fonts, and other visual styling to the website, making it visually appealing and easy to use. And then I moved to JavaScript to apply logic and functions in my website.
+
+<br><br>
+
+Overall, this project taught me a lot about the importance of planning and organization in website design, as well as the power of HTML, CSS and JavaScript in creating beautiful and functional websites.
+
+
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/job.png" alt="Daniel lewis" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  #bharat_Intern
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+
+
+                    As a Web Developing Intern in the Virtual Internship Program (VIP) at Bharat Intern is held in
+                    May 2023.
+                    I would like to thank the team of Bharat Intern Community for giving me this opportunity to enhance my
+                    skills and work on such an amazing projects.
+                    During this Web Development Internship I were having 3 levels of tasks, out of which we needed to
+                    complete at least 2 of them for the Internship completion & certification from Bharat Intern:-
+<br>
+<br>
+
+For this project, I started by brainstorming the purpose and goals of the website, and then creating a wireframe to plan out the layout and structure. Once I had a clear idea of the website's design, I began writing the HTML code to create the website's structure and content.
+                      
+                      <br>
+                      <br>
+                      
+After I had written the HTML code, I moved on to styling the website using CSS . I used CSS to apply colors, fonts, and other visual styling to the website, making it visually appealing and easy to use. And then I moved to JavaScript to apply logic and functions in my website.
+
+<br><br>
+
+Overall, this project taught me a lot about the importance of planning and organization in website design, as well as the power of HTML, CSS and JavaScript in creating beautiful and functional websites.
+
+
+                  </p>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
@@ -641,72 +951,65 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
               </div>
             </li> -->
-            </ul>
-          </section>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  klm elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
               </div>
+            </div>
+          </section>
+        </div>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum
-                    dolor sit amet, ullamcous cididt consectetur adipiscing
-          klm          elit, seds do et eiusmod tempor incididunt ut laborels
-                    dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <!--
+        <!--
           - clients
         -->
 
-          <section class="clients">
-            <h3 class="h3 clients-title">Thanks for visiting my Website!</h3>
-            
+        <section class="clients">
+          <h3 class="h3 clients-title">Thanks for visiting my Website!</h3>
 
-            <ul class="clients-list has-scrollbar">
-              <li class="clients-item">
-                <a href="#">
-                  <img
-                    src="./images/job.png"
-                    alt="client logo"
-                  />
-                </a>
-              </li>
 
-              <!-- <li class="clients-item">
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./images/job.png" alt="client logo" />
+              </a>
+            </li>
+
+            <!-- <li class="clients-item">
                 <a href="#">
                   <img
                     src="./assets/images/code.png"
@@ -750,170 +1053,364 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
                   />
                 </a>
               </li> -->
-            </ul>
-          </section>
-        </article>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-          <!-- <h1>About</h1> -->
-          <br><br> 
-          
-          <!-- for future use! to add about section... -->
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-             
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <!-- <h1>About</h1> -->
+        <br><br>
 
-              <h3 class="h3">Education</h3>
+        <!-- for future use! to add about section... -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Govt Dr Shyama Prasad Mukharjee Science and Commerce College
-                  [Old Benazeer College] ( B.Sc )
-                </h4>
 
-                <span>2020 — 2022</span>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <p class="timeline-text">percentage 60%</p>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Govt Dr Shyama Prasad Mukharjee Science and Commerce College
+                [Old Benazeer College] ( B.Sc )
+              </h4>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Navankur Vidya Peeth H.S. School ( XII )
-                </h4>
+              <span>2020 — 2022</span>
 
-                <span>2019</span>
+              <p class="timeline-text">percentage 60%</p>
+            </li>
 
-                <p class="timeline-text">percentage 78%</p>
-              </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Navankur Vidya Peeth H.S. School ( XII )
+              </h4>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Navankur Vidya Peeth H.S. School ( X )
-                </h4>
+              <span>2019</span>
 
-                <span>2017</span>
+              <p class="timeline-text">percentage 78%</p>
+            </li>
 
-                <p class="timeline-text">percentage 80%</p>
-              </li>
-            </ol>
-          </section>
-          <br><br>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Navankur Vidya Peeth H.S. School ( X )
+              </h4>
 
-              <h3 class="h3">Projects</h3>
+              <span>2017</span>
+
+              <p class="timeline-text">percentage 80%</p>
+            </li>
+          </ol>
+        </section>
+        <br><br>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Music-Player</h4>
-                
 
-                <!-- <span><a href="https://tarun910.github.io/Music-Player/">Project-link</a></span> -->
+            <h3 class="h3">Projects</h3>
+          </div>
 
-                <p class="timeline-text">
-                  I built a music player using just core web technologies: HTML
-                  CSS and js. This music player will have all the features found
-                  in a typical music player. You will be able to add, play,
-                  pause, and seek songs that have been added. It displays the
-                  artist’s name with the songs they composed. This code is added
-                  for making the carousel concept in this project by adding the
-                  song images with respective links so that after this code the
-                  images will be displayed line by line with a start, delay, and
-                  end time which is added in this javascript code.
-                </p>
-                <br><br>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a href="https://tarun910.github.io/Music-Player/" class="social-link">
-                      <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                  </li>
-      </ul>
-              </li>
-              <br><br>
+          <ol class="timeline-list">
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">My Personal Website</h4>
 
-                <!-- <span><a href="https://tarun910.github.io/my-website/
+
+
+
+
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">My - Personal - Website</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/my-website/
                   " style="text-decoration: none">project link</a></span> -->
 
-                <p class="timeline-text">
-                  A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. In addition, it's one of the best ways to express your personality, experience, and capabilities.
-                </p>
+              <p class="timeline-text">
+                A portfolio website is a unique way to showcase your work and let others know about yourself. It's like
+                an evergreen platform for your projects, case studies, and information about you. In addition, it's one
+                of the best ways to express your personality, experience, and capabilities.
+
                 <br><br>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a href="https://tarun910.github.io/my-website/" class="social-link">
-                      <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                  </li>
-      </ul>
-              </li>
+                I created this website to let others know about my self. I mentioned all the projects which i created . I mentioned the Internships, which i did. I mentioned my education and all the experience, while creating these projects.
+              </p>
               <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/my-website/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
 
-              </li>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">landing-Page</h4>
 
-                <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span> -->
 
-                <p class="timeline-text">
-                  Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to describe and explain your product or service with ample text and images.
-                </p>
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Digital - MakeUp - Website</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/my-website/
+                  " style="text-decoration: none">project link</a></span> -->
+
+              <p class="timeline-text">
+                I created this Make-up artist's website to grow his/her business by using Html , Css and Js in front-end, and used node.js , express.js as back-end. I used MongoDb as data base, but there are some issues being occurred in database because of lack of some guidance or experience in database  but still i tried as much as i can do.This is fully responsive website, it will work properly on all devices like mobile, pc, tablet, iPhone etc.
+
                 <br><br>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a href="https://tarun910.github.io/landing-Page/" class="social-link">
-                      <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                  </li>
-      </ul>
-              </li>
+
+
+ Functionities :-  
+
+There are some functionalities added in website like home , about, services, products, gallery and contact sections.
+There is also a user ragistration form where user can create his/her account and fill his/her information.
+
+
+<br><br>
+  
+
+As per the demand we can also add some other links like WhatsApp bussiness account of owner and some other link and features too. To make the conversation easy and services better between customer and the owner.
+
+
+
+<br><br>
+ Note:- The data is used as demo text in the website.
+              </p>
               <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/MakeUp-Website/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
 
-              </li>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Calculator</h4>
 
-                <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span> -->
 
-                <p class="timeline-text">
-                  I created a simple calculator using just core web technologies: HTML, CSS, and JavaScript. This calculator can perform all the basic mathematical operations like addition, subtraction, multiplication, and division. It does not display any result in case of an invalid expression. For example, 5++9 will not display anything. Clear screen feature to clear the display screen anytime you want.
-                </p>
-                <br><br>
-                <ul class="social-list">
-                  <li class="social-item">
-                    <a href="https://tarun910.github.io/Calulator-project-/" class="social-link">
-                      <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                  </li>
-      </ul>
-              </li>
+
+<!--  
+
+
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Music-Player</h4>
+
+
+         
+
+              <p class="timeline-text">
+                I built a music player using just core web technologies: HTML
+                CSS and js. This music player will have all the features found
+                in a typical music player. You will be able to add, play,
+                pause, and seek songs that have been added. It displays the
+                artist’s name with the songs they composed. This code is added
+                for making the carousel concept in this project by adding the
+                song images with respective links so that after this code the
+                images will be displayed line by line with a start, delay, and
+                end time which is added in this javascript code.
+              </p>
               <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/Music-Player/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
 
-              </li>
+           
 
-              <!-- <li class="timeline-item">
+
+
+
+
+
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">landing-Page</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span> 
+
+              <p class="timeline-text">
+                Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to
+                sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to
+                describe and explain your product or service with ample text and images.
+              </p>
+              <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/landing-Page/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Calculator</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span>
+
+              <p class="timeline-text">
+                I created a simple calculator using just core web technologies: HTML, CSS, and JavaScript. This
+                calculator can perform all the basic mathematical operations like addition, subtraction, multiplication,
+                and division. It does not display any result in case of an invalid expression. For example, 5++9 will
+                not display anything. Clear screen feature to clear the display screen anytime you want.
+              </p>
+              <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/Calulator-project-/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
+
+            </li>
+
+
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">landing-Page</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span>
+              <p class="timeline-text">
+                Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to
+                sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to
+                describe and explain your product or service with ample text and images.
+              </p>
+              <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/landing-Page/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
+
+            </li>
+
+
+
+
+
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">landing-Page</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span> 
+
+              <p class="timeline-text">
+                Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to
+                sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to
+                describe and explain your product or service with ample text and images.
+              </p>
+              <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/landing-Page/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
+
+            </li>
+
+
+
+
+
+
+
+
+
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">landing-Page</h4>
+
+              <!-- <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span> 
+
+              <p class="timeline-text">
+                Landing page: It has a very specific purpose, such as for users to sign-up, to gather information, to
+                sell a product, or a clickable advertising or marketing campaign. Website page: It is designed to
+                describe and explain your product or service with ample text and images.
+              </p>
+              <br><br>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://tarun910.github.io/landing-Page/" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <br><br>
+
+            </li> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">Calculator</h4>
 
                 <span><a href="https://tarun910.github.io/Calulator-project-/">project link</a></span>
@@ -933,245 +1430,363 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
               <br><br>
 
               </li> -->
-              
-            </ol>
-          </section>
 
-          <section class="skill">
-            <h3 class="h3 skills-title">Tech Stack</h3>
+          </ol>
+        </section>
 
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Html</h5>
-                  <data value="80">80%</data>
-                </div>
+        <section class="skill">
+          <h3 class="h3 skills-title">Tech Stack</h3>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Html</h5>
+                <data value="80">80%</data>
+              </div>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Css</h5>
-                  <data value="70">70%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">JavaScript</h5>
-                  <data value="60">60%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Bootstrap</h5>
-                  <data value="70">70%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">MongoDB</h5>
-                  <data value="60">60%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Express.js</h5>
-                  <data value="70">70%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">node.js</h5>
-                  <data value="60">60%</data>
-                </div>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Css</h5>
+                <data value="80">80%</data>
+              </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 60%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">pug.js</h5>
-                  <data value="70">70%</data>
-                </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Java</h5>
-                  <data value="80">80%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Python</h5>
-                  <data value="80">80%</data>
-                </div>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
 
-        <!--
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">React.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Express.js</h5>
+                <data value="70">70%</data>
+              </div>       
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+            
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">node.js</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">pug.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+            </li>
+
+
+
+
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list"> 
-              
-              
-              
-              <!-- we can edit navbar inside the protfolio from here... -->
+        <section class="projects">
+          <ul class="filter-list">
 
 
 
+            <!-- we can edit navbar inside the protfolio from here... -->
 
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+
+
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>python projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>js projects</button>
+            </li>
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
-              
-                            <li class="filter-item">
-                              <button data-filter-btn>Web development</button>
-                            </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>python projects</button>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>js projects</button>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-
-
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
             </ul>
+          </div>
 
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web design</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/Spotify - Your favourite music is here.png"
-                      alt="finance"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Music-Player</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./images/HarryFitness - The best fitness gym in the town.png"
-                      alt="orizon"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Landing Page</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+          <ul class="project-list">
 
 
 
 
-              
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
 
-              <!-- <li
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TARUN NAMDEV - Personal Portfolio.png" alt="summary" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Personal-Website </h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+            
+
+            
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/makeup.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">MakeUp-Website</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Spotify - Your favourite music is here.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Music-Player</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/HarryFitness - The best fitness gym in the town.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Landing Page</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+            <!-- <li
                 class="project-item active"
                 data-filter-item
                 data-category="web design"
@@ -1199,7 +1814,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li
+            <!-- <li
                 class="project-item active"
                 data-filter-item
                 data-category="applications"
@@ -1227,7 +1842,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li
+            <!-- <li
                 class="project-item active"
                 data-filter-item
                 data-category="web design"
@@ -1253,7 +1868,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li
+            <!-- <li
                 class="project-item active"
                 data-filter-item
                 data-category="web design"
@@ -1277,32 +1892,8 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
                 </a>
               </li> -->
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    
-
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/TARUN NAMDEV - Personal Portfolio.png"
-                      alt="summary"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Protfolio Website</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-<!-- 
+          
+            <!-- 
 
 
 
@@ -1340,69 +1931,238 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
                 </a>
               </li> -->
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./images/Calculate me! - a claculator by me..png"
-                      alt="arrival"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./images/Calculate me! - a claculator by me..png" alt="arrival" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Calculator</h3>
+                <h3 class="project-title">Calculator</h3>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
 
-        <!--
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/calculator Dark.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Calculator Light/Dark Theme</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/netflix.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Netflix - Homepage</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/link-shortner.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Link - Shortner</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/temprature.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Temperature-Converter</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/to do.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">To - Do - List App</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/tribute-page.png" alt="finance" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Tribute-Page</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #BLOG
       -->
 
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
-
-          
-          <h3 class="h3 blog-item-title">
-            <div>Hey Folks! </div>
-            <!-- <div> Welcome on my Blog !</div> -->
-          </h3>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
 
 
-            <p class="blog-text">
-         <div class="blog-text">I am Tarun Namdev, I am basically from Bhopal,(mp).</div>
-         <br>
-         <div class="blog-text">I graduated in Bachelor of Science (BSc)  from Govt Dr Shyama Prasad Mukharjee Science and Commerce College [Old Benazeer College] passed in the year 2022.</div>
-         <br>
-         <div class="blog-text">Seeking a beginner role to enhance and explore my technical knowledge gained from online learning platforms, mentors, and websites. Strong ability to handle complex projects. Innovative, creative, and willing to contribute ideas and learn new things.</div>
-         <br>
-         <div class="blog-text">I have done so many projects based on web devlopment by using tech stack: html, css , javascript. I also have the knowledge of the java and python languages.</div>
-         <br><br>
-         <div class="blog-text">That's all about me !</div>
-      
-
-              </p>
-
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
+        <h3 class="h3 blog-item-title">
+          <div>Hey Folks! </div>
+          <!-- <div> Welcome on my Blog !</div> -->
+        </h3>
 
 
-              
-              <!-- <li class="blog-post-item">
+        <p class="blog-text">
+        <div class="blog-text">I am Tarun Namdev, I am basically from Bhopal,(mp).</div>
+        <br>
+        <div class="blog-text">I graduated in Bachelor of Science (BSc) from Govt Dr Shyama Prasad Mukharjee Science and
+          Commerce College [Old Benazeer College] passed in the year 2022.</div>
+        <br>
+        <div class="blog-text">Seeking a beginner role to enhance and explore my technical knowledge gained from online
+          learning platforms, mentors, and websites. Strong ability to handle complex projects. Innovative, creative,
+          and willing to contribute ideas and learn new things.</div>
+        <br>
+        <div class="blog-text">I have done so many projects based on web devlopment by using tech stack: html, css ,
+          javascript. I also have the knowledge of the java and python languages.</div>
+        <br><br>
+        <div class="blog-text">That's all about me !</div>
+
+
+        </p>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+
+
+
+            <!-- <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
                     <img
@@ -1440,7 +2200,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-<!--               
+            <!--               
               <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
@@ -1477,7 +2237,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li class="blog-post-item">
+            <!-- <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
                     <img
@@ -1509,7 +2269,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li class="blog-post-item">
+            <!-- <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
                     <img
@@ -1543,7 +2303,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-<!--               
+            <!--               
               <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
@@ -1577,7 +2337,7 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
 
 
 
-              <!-- <li class="blog-post-item">
+            <!-- <li class="blog-post-item">
                 <a href="#">
                   <figure class="blog-banner-box">
                     <img
@@ -1604,88 +2364,61 @@ During this Web Development Internship we were having 3 levels of tasks, out of 
                   </div>
                 </a>
               </li> -->
-            </ul>
-          </section>
-        </article>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-              src="https://maps.google.com/maps?q=India, bhopal&t=&z=10&ie=UTF8&iwloc=&output=embed"
-                width="400"
-                height="300"
-                loading="lazy"
-              ></iframe>
-            </figure>
-          </section>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://maps.google.com/maps?q=India, bhopal&t=&z=10&ie=UTF8&iwloc=&output=embed" width="400"
+              height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <a href="mailto:namdevtarun910@gmail.com" class="contact-link"> <button class="form-btn" type="submit" disabled data-form-btn>
+            <a href="mailto:namdevtarun910@gmail.com" class="contact-link"> <button class="form-btn" type="submit"
+                disabled data-form-btn>
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
-              </button></a>  
-             
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+              </button></a>
 
-    <!--
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
