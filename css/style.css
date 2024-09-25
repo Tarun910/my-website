@@ -339,7 +339,11 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
 
 .info-content .name {
@@ -1418,6 +1422,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box {
     border-radius: 30px;
+    
   }
 
   .avatar-box img {
@@ -1532,6 +1537,7 @@ textarea.form-input::-webkit-resizer {
 
   .testimonials-avatar-box img {
     width: 80px;
+    border-radius: 50px;
   }
 
   .testimonials-item-title {
