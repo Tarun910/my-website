@@ -98,7 +98,7 @@ filterBtn.forEach((btn) => {
 
     lastClickedBtn.classList.remove("active");
     btn.classList.add("active");
-    lastClickedBtn = btn;
+    lastClickedBtn = btn;z
   });
 });
 
